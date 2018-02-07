@@ -1,0 +1,12 @@
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Repositorio\bin\Debug\Fatec.RD.Infra.Repositorio.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Repositorio\bin\Debug\Fatec.RD.Infra.Repositorio.pdb
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Repositorio\bin\Debug\Dapper.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Repositorio\bin\Debug\Fatec.RD.Dominio.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Repositorio\bin\Debug\Fatec.RD.SharedKernel.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Repositorio\bin\Debug\Fatec.RD.Dominio.pdb
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Repositorio\bin\Debug\Dapper.xml
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Repositorio\bin\Debug\Fatec.RD.SharedKernel.pdb
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Repositorio\obj\Debug\Fatec.RD.Infra.Repositorio.csprojResolveAssemblyReference.cache
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Repositorio\obj\Debug\Fatec.RD.Infra.Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Repositorio\obj\Debug\Fatec.RD.Infra.Repositorio.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Repositorio\obj\Debug\Fatec.RD.Infra.Repositorio.pdb

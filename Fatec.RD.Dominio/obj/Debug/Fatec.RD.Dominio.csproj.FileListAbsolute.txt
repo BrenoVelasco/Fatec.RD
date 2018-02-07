@@ -1,0 +1,8 @@
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Dominio\bin\Debug\Fatec.RD.Dominio.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Dominio\bin\Debug\Fatec.RD.Dominio.pdb
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Dominio\bin\Debug\Fatec.RD.SharedKernel.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Dominio\bin\Debug\Fatec.RD.SharedKernel.pdb
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Dominio\obj\Debug\Fatec.RD.Dominio.csprojResolveAssemblyReference.cache
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Dominio\obj\Debug\Fatec.RD.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Dominio\obj\Debug\Fatec.RD.Dominio.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Dominio\obj\Debug\Fatec.RD.Dominio.pdb

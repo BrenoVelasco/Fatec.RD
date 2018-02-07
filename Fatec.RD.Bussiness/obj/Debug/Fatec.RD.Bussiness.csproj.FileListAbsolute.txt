@@ -1,0 +1,14 @@
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.Bussiness.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.Bussiness.pdb
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.Dominio.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.Infra.Repositorio.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.SharedKernel.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\bin\Debug\Dapper.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.Dominio.pdb
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.Infra.Repositorio.pdb
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.SharedKernel.pdb
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\bin\Debug\Dapper.xml
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\obj\Debug\Fatec.RD.Bussiness.csprojResolveAssemblyReference.cache
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\obj\Debug\Fatec.RD.Bussiness.csproj.CoreCompileInputs.cache
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\obj\Debug\Fatec.RD.Bussiness.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\obj\Debug\Fatec.RD.Bussiness.pdb

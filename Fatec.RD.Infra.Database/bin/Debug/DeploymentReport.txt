@@ -1,0 +1,25 @@
+﻿** Destaques
+     Tabelas que serão recriadas
+       Nenhum
+     Índices clusterizados que serão removidos
+       Nenhum
+     Índices clusterizados que serão criados
+       Nenhum
+     Possíveis problemas de dados
+       Nenhum
+
+** Ações do usuário
+     Criar
+       [dbo].[Despesa] (Tabela)
+       [dbo].[Relatorio] (Tabela)
+       [dbo].[RelatorioDespesa] (Tabela)
+       [dbo].[TipoDespesa] (Tabela)
+       [dbo].[TipoPagamento] (Tabela)
+       [dbo].[TipoRelatorio] (Tabela)
+       [dbo].[FK_Despesa_TipoDespesa] (Chave Estrangeira)
+       [dbo].[FK_Despesa_TipoPagamento] (Chave Estrangeira)
+       [dbo].[FK_Relatorio_TipoRelatorio] (Chave Estrangeira)
+       [dbo].[FK_RelatorioDespesa_Relatorio] (Chave Estrangeira)
+       [dbo].[FK_RelatorioDespesa_Despesa] (Chave Estrangeira)
+
+** Ações de suporte

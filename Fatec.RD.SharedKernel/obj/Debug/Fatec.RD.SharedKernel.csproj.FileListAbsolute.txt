@@ -1,0 +1,5 @@
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.SharedKernel\bin\Debug\Fatec.RD.SharedKernel.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.SharedKernel\bin\Debug\Fatec.RD.SharedKernel.pdb
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.SharedKernel\obj\Debug\Fatec.RD.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.SharedKernel\obj\Debug\Fatec.RD.SharedKernel.dll
+C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.SharedKernel\obj\Debug\Fatec.RD.SharedKernel.pdb

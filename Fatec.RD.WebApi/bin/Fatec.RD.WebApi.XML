@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fatec.RD.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Fatec.RD.WebApi.SwaggerConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fatec.RD.WebApi.SwaggerConfig.GetXmlCommentsPath">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Fatec.RD.WebApi.Controllers.DespesaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.DespesaController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.DespesaController.Get">
+            <summary>
+            Método que obtem uma lista de despesa....
+            </summary>
+            <returns>Lista de Despesa</returns>
+            <remarks>Obtem lista de depesa</remarks>
+            <response code="200">Ok</response>
+            <response code="400">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="T:Fatec.RD.WebApi.Controllers.RelatorioController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.RelatorioController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.RelatorioController.Get">
+            <summary>
+            Método que obtem uma lista de relatorio....
+            </summary>
+            <returns>Lista de Despesa</returns>
+            <remarks>Obtem lista de depesa</remarks>
+            <response code="200">Ok</response>
+            <response code="400">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.RelatorioController.GetDespesaRelatorio(System.Int32)">
+            <summary>
+            Método que obtem, todas as despesas do relatório...
+            </summary>
+            <param name="id">Id do relatório</param>
+            <returns>Lista de Despesas</returns>
+            <remarks>Obtem lista de depesa</remarks>
+            <response code="200">Ok</response>
+            <response code="404">NotFound</response>      
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.RelatorioController.GetDespesaRelatorio">
+            <summary>
+            Método que obtem, todas as despesas sem relatório...
+            </summary>
+            <returns>Lista de Despesas</returns>
+            <remarks>Obtem lista de depesa</remarks>
+            <response code="200">Ok</response>
+            <response code="404">NotFound</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.RelatorioController.PostRelatorioDespesa(System.Int32,Fatec.RD.Bussiness.Inputs.RelatorioDespesaInput)">
+            <summary>
+            Método que insere a relacao de relatório e despesa
+            </summary>
+            <param name="input">Input com lista da relação de relatório e despesa</param>
+            <remarks>Insere vínculo entre as entidade</remarks>
+            <response code="201">Created</response>
+            <response code="400">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="T:Fatec.RD.WebApi.Controllers.TipoDespesaController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoDespesaController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoDespesaController.Post(Fatec.RD.Bussiness.Inputs.TipoInput)">
+            <summary>
+            Método que insere um novo tipo de despesa
+            </summary>
+            <param name="input">Input de Tipo de Despesa</param>
+            <remarks>Insere um novo usuário</remarks>
+            <response code="201">Created</response>
+            <response code="400">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoDespesaController.Put(System.Int32,Fatec.RD.Bussiness.Inputs.TipoInput)">
+            <summary>
+            Método que altera um tipo de despsa....
+            </summary>
+            <param name="id">Id do tipo de despesa</param>
+            <returns></returns>
+            <remarks>Deleta um aluno</remarks>
+            <response code="202">Accepted</response>
+            <response code="404">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoDespesaController.Delete(System.Int32)">
+            <summary>
+            Método que exclui um tipo de despesa....
+            </summary>
+            <param name="id">Id do tipo de despesa</param>
+            <returns></returns>
+            <remarks>Deleta um tipo de despesa</remarks>
+            <response code="200">Ok</response>
+            <response code="404">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoDespesaController.Get(System.Int32)">
+            <summary>
+            Método que obtem um tipo de despesa....
+            </summary>
+            <param name="id">Id do tipo de despesa</param>
+            <returns></returns>
+            <remarks>obtem um tipo de despesa</remarks>
+            <response code="200">Ok</response>
+            <response code="400">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoDespesaController.Get">
+            <summary>
+            Método que obtem uma lista de tipo de despesa....
+            </summary>
+            <returns>Lista de Tipo de Despesa</returns>
+            <remarks>Obtem lista de tipo de depesa</remarks>
+            <response code="200">Ok</response>
+            <response code="400">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="T:Fatec.RD.WebApi.Controllers.TipoPagamentoController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoPagamentoController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoPagamentoController.Post(Fatec.RD.Bussiness.Inputs.TipoInput)">
+            <summary>
+            Método que insere um novo tipo de despesa
+            </summary>
+            <param name="input">Input de Tipo de Despesa</param>
+            <remarks>Insere um novo usuário</remarks>
+            <response code="201">Created</response>
+            <response code="400">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoPagamentoController.Put(System.Int32,Fatec.RD.Bussiness.Inputs.TipoInput)">
+            <summary>
+            Método que altera um tipo de despsa....
+            </summary>
+            <param name="id">Id do tipo de despesa</param>
+            <returns></returns>
+            <remarks>Deleta um aluno</remarks>
+            <response code="202">Accepted</response>
+            <response code="404">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoPagamentoController.Delete(System.Int32)">
+            <summary>
+            Método que exclui um tipo de despesa....
+            </summary>
+            <param name="id">Id do tipo de despesa</param>
+            <returns></returns>
+            <remarks>Deleta um tipo de despesa</remarks>
+            <response code="200">Ok</response>
+            <response code="404">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoPagamentoController.Get(System.Int32)">
+            <summary>
+            Método que obtem um tipo de despesa....
+            </summary>
+            <param name="id">Id do tipo de despesa</param>
+            <returns></returns>
+            <remarks>obtem um tipo de despesa</remarks>
+            <response code="200">Ok</response>
+            <response code="400">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoPagamentoController.Get">
+            <summary>
+            Método que obtem uma lista de tipo de despesa....
+            </summary>
+            <returns>Lista de Tipo de Despesa</returns>
+            <remarks>Obtem lista de tipo de depesa</remarks>
+            <response code="200">Ok</response>
+            <response code="400">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="T:Fatec.RD.WebApi.Controllers.TipoRelatorioController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoRelatorioController.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoRelatorioController.Post(Fatec.RD.Bussiness.Inputs.TipoInput)">
+            <summary>
+            Método que insere um novo tipo de despesa
+            </summary>
+            <param name="input">Input de Tipo de Despesa</param>
+            <remarks>Insere um novo usuário</remarks>
+            <response code="201">Created</response>
+            <response code="400">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoRelatorioController.Put(System.Int32,Fatec.RD.Bussiness.Inputs.TipoInput)">
+            <summary>
+            Método que altera um tipo de despsa....
+            </summary>
+            <param name="id">Id do tipo de despesa</param>
+            <returns></returns>
+            <remarks>Deleta um aluno</remarks>
+            <response code="202">Accepted</response>
+            <response code="404">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoRelatorioController.Delete(System.Int32)">
+            <summary>
+            Método que exclui um tipo de despesa....
+            </summary>
+            <param name="id">Id do tipo de despesa</param>
+            <returns></returns>
+            <remarks>Deleta um tipo de despesa</remarks>
+            <response code="200">Ok</response>
+            <response code="404">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoRelatorioController.Get(System.Int32)">
+            <summary>
+            Método que obtem um tipo de despesa....
+            </summary>
+            <param name="id">Id do tipo de despesa</param>
+            <returns></returns>
+            <remarks>obtem um tipo de despesa</remarks>
+            <response code="200">Ok</response>
+            <response code="400">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.TipoRelatorioController.Get">
+            <summary>
+            Método que obtem uma lista de tipo de despesa....
+            </summary>
+            <returns>Lista de Tipo de Despesa</returns>
+            <remarks>Obtem lista de tipo de depesa</remarks>
+            <response code="200">Ok</response>
+            <response code="400">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="T:Fatec.RD.WebApi.Filters.ActionRequestFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Filters.ActionRequestFilter.OnActionExecuting(System.Web.Http.Controllers.HttpActionContext)">
+            <summary>
+            
+            </summary>
+            <param name="actionContext"></param>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Filters.ActionRequestFilter.OnActionExecuted(System.Web.Http.Filters.HttpActionExecutedContext)">
+            <summary>
+            
+            </summary>
+            <param name="actionExecutedContext"></param>
+        </member>
+        <member name="T:Fatec.RD.WebApi.Filters.ErrorExceptionFilter">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Filters.ErrorExceptionFilter.OnException(System.Web.Http.Filters.HttpActionExecutedContext)">
+            <summary>
+            
+            </summary>
+            <param name="contexto"></param>
+        </member>
+    </members>
+</doc>
