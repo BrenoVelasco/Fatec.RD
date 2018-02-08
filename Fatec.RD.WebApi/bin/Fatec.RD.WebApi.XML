@@ -35,6 +35,49 @@
             <response code="400">BadRequest</response>
             <response code="500">InternalServerError</response>
         </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.DespesaController.Get(System.Int32)">
+            <summary>
+            Método que obtem uma despesa....
+            </summary>
+            <param name="id">Id da despesa</param>
+            <returns></returns>
+            <remarks>Obtem uma despesa</remarks>
+            <response code="200">Ok</response>
+            <response code="400">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.DespesaController.Post(Fatec.RD.Bussiness.Inputs.DespesaInput)">
+            <summary>
+            Método que insere uma nova despesa
+            </summary>
+            <param name="input">Input de Despesa</param>
+            <remarks>Insere uma nova despesa</remarks>
+            <response code="201">Created</response>
+            <response code="400">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.DespesaController.Put(System.Int32,Fatec.RD.Bussiness.Inputs.DespesaInput)">
+            <summary>
+            Método que altera uma despsa....
+            </summary>
+            <param name="id">Id da despesa</param>
+            <returns></returns>
+            <remarks>Altera uma despesa</remarks>
+            <response code="202">Accepted</response>
+            <response code="404">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
+        <member name="M:Fatec.RD.WebApi.Controllers.DespesaController.Delete(System.Int32)">
+            <summary>
+            Método que exclui uma despesa....
+            </summary>
+            <param name="id">Id da despesa</param>
+            <returns></returns>
+            <remarks>Deleta uma despesa</remarks>
+            <response code="200">Ok</response>
+            <response code="404">BadRequest</response>
+            <response code="500">InternalServerError</response>
+        </member>
         <member name="T:Fatec.RD.WebApi.Controllers.RelatorioController">
             <summary>
             

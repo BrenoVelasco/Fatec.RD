@@ -19,7 +19,7 @@ namespace Fatec.RD.Dominio.Modelos
         {
             new Convalidare()
                 .GreaterThan("IdTipoDespesa", this.IdTipoDespesa, 0)
-                .GreaterThan("TipoPagamento", this.IdTipoPagamento, 0)
+                .GreaterThan("IdTipoPagamento", this.IdTipoPagamento, 0)
                 .GreaterThan("Valor", this.Valor, 0)
                 .Validate();
         }

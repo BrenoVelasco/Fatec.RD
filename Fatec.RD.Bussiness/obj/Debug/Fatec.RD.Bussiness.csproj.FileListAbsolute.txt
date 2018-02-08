@@ -12,3 +12,17 @@ C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\obj
 C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\obj\Debug\Fatec.RD.Bussiness.csproj.CoreCompileInputs.cache
 C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\obj\Debug\Fatec.RD.Bussiness.dll
 C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Bussiness\obj\Debug\Fatec.RD.Bussiness.pdb
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.Bussiness.dll
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.Bussiness.pdb
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.Dominio.dll
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.Infra.Repositorio.dll
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.SharedKernel.dll
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Bussiness\bin\Debug\Dapper.dll
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.Dominio.pdb
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.Infra.Repositorio.pdb
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Bussiness\bin\Debug\Fatec.RD.SharedKernel.pdb
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Bussiness\bin\Debug\Dapper.xml
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Bussiness\obj\Debug\Fatec.RD.Bussiness.csprojResolveAssemblyReference.cache
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Bussiness\obj\Debug\Fatec.RD.Bussiness.csproj.CoreCompileInputs.cache
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Bussiness\obj\Debug\Fatec.RD.Bussiness.dll
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Bussiness\obj\Debug\Fatec.RD.Bussiness.pdb

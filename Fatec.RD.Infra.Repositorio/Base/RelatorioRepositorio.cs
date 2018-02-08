@@ -65,7 +65,7 @@ namespace Fatec.RD.Infra.Repositorio.Base
         }
 
         /// <summary>
-        /// Método que retr=orna, despesas que não estão atreladas a algum relatorio...
+        /// Método que retorna, despesas que não estão atreladas a algum relatorio...
         /// </summary>
         /// <returns>Lista de despesas</returns>
         public List<DespesaViewModel> SelecionarDespesasSemRelatorio()

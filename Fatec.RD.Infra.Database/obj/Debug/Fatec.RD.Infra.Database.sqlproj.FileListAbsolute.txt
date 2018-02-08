@@ -3,3 +3,8 @@ C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Databas
 C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Database\bin\Debug\Fatec.RD.Infra.Database.pdb
 C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Database\obj\Debug\Fatec.RD.Infra.Database.dll
 C:\Users\Velasco\Documents\Projeto Viceri\Fatec.RD-master\Fatec.RD.Infra.Database\obj\Debug\Fatec.RD.Infra.Database.pdb
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Infra.Database\bin\Debug\Fatec.RD.Infra.Database.dacpac
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Infra.Database\bin\Debug\Fatec.RD.Infra.Database.dll
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Infra.Database\bin\Debug\Fatec.RD.Infra.Database.pdb
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Infra.Database\obj\Debug\Fatec.RD.Infra.Database.dll
+C:\Users\Rodolfo\Dropbox\Viceri\Fatec.RD\Fatec.RD.Infra.Database\obj\Debug\Fatec.RD.Infra.Database.pdb
