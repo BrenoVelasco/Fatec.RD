@@ -1,13 +1,11 @@
 ﻿using Fatec.RD.Bussiness;
-using Fatec.RD.Bussiness.Inputs;
 using Swashbuckle.Swagger.Annotations;
 using System.Net;
 using System.Web.Http;
 
-
-using System.Web.Http.Description;
-
+using Fatec.RD.Bussiness.Inputs;
 using Fatec.RD.Dominio.Modelos;
+using System.Web.Http.Description;
 
 namespace Fatec.RD.WebApi.Controllers
 {
@@ -28,47 +26,10 @@ namespace Fatec.RD.WebApi.Controllers
         }
 
         /// <summary>
-        /// Método que obtem uma lista de despesa....
-        /// </summary>
-        /// <returns>Lista de Despesa</returns>
-        /// <remarks>Obtem lista de depesa</remarks>
-        /// <response code="200">Ok</response>
-        /// <response code="400">BadRequest</response>
-        /// <response code="500">InternalServerError</response>
-        [SwaggerResponse(HttpStatusCode.OK)]
-        [SwaggerResponse(HttpStatusCode.BadRequest, "BadRequest")]
-        [SwaggerResponse(HttpStatusCode.InternalServerError, "InternalServerError")]
-        [HttpGet]
-        public IHttpActionResult Get()
-        {
-            return Ok(_appDespesa.Selecionar());
-        }
-
-        /// <summary>
-        /// Método que obtem uma despesa....
-        /// </summary>
-        /// <param name="id">Id da despesa</param>
-        /// <returns></returns>
-        /// <remarks>Obtem uma despesa</remarks>
-        /// <response code="200">Ok</response>
-        /// <response code="400">BadRequest</response>
-        /// <response code="500">InternalServerError</response>
-        [SwaggerResponse(HttpStatusCode.OK)]
-        [SwaggerResponse(HttpStatusCode.BadRequest, "BadRequest")]
-        [SwaggerResponse(HttpStatusCode.InternalServerError, "InternalServerError")]
-        [ResponseType(typeof(Despesa))]
-        [Route("{id}")]
-        [HttpGet]
-        public IHttpActionResult Get(int id)
-        {
-            return Ok(_appDespesa.SelecionarPorId(id));
-        }
-
-        /// <summary>
         /// Método que insere uma nova despesa
         /// </summary>
         /// <param name="input">Input de Despesa</param>
-        /// <remarks>Insere uma nova despesa</remarks>
+        /// <remarks>Insere uma nova Despesa</remarks>
         /// <response code="201">Created</response>
         /// <response code="400">BadRequest</response>
         /// <response code="500">InternalServerError</response>
@@ -86,7 +47,7 @@ namespace Fatec.RD.WebApi.Controllers
         /// <summary>
         /// Método que altera uma despsa....
         /// </summary>
-        /// <param name="id">Id da despesa</param>
+        /// <param name="id">Id de despesa</param>
         /// <returns></returns>
         /// <remarks>Altera uma despesa</remarks>
         /// <response code="202">Accepted</response>
@@ -107,7 +68,7 @@ namespace Fatec.RD.WebApi.Controllers
         /// <summary>
         /// Método que exclui uma despesa....
         /// </summary>
-        /// <param name="id">Id da despesa</param>
+        /// <param name="id">Id de despesa</param>
         /// <returns></returns>
         /// <remarks>Deleta uma despesa</remarks>
         /// <response code="200">Ok</response>
@@ -123,6 +84,44 @@ namespace Fatec.RD.WebApi.Controllers
         {
             _appDespesa.Deletar(id);
             return Ok();
+        }
+
+        /// <summary>
+        /// Método que obtem uma despesa....
+        /// </summary>
+        /// <param name="id">Id da despesa</param>
+        /// <returns></returns>
+        /// <remarks>obtem uma despesa</remarks>
+        /// <response code="200">Ok</response>
+        /// <response code="400">BadRequest</response>
+        /// <response code="500">InternalServerError</response>
+        [SwaggerResponse(HttpStatusCode.OK)]
+        [SwaggerResponse(HttpStatusCode.BadRequest, "BadRequest")]
+        [SwaggerResponse(HttpStatusCode.InternalServerError, "InternalServerError")]
+        [ResponseType(typeof(Despesa))]
+        [Route("{id}")]
+        [HttpGet]
+        public IHttpActionResult Get(int id)
+        {
+            return Ok(_appDespesa.SelecionarPorId(id));
+        }
+
+
+        /// <summary>
+        /// Método que obtem uma lista de despesa....
+        /// </summary>
+        /// <returns>Lista de Despesa</returns>
+        /// <remarks>Obtem lista de depesa</remarks>
+        /// <response code="200">Ok</response>
+        /// <response code="400">BadRequest</response>
+        /// <response code="500">InternalServerError</response>
+        [SwaggerResponse(HttpStatusCode.OK)]
+        [SwaggerResponse(HttpStatusCode.BadRequest, "BadRequest")]
+        [SwaggerResponse(HttpStatusCode.InternalServerError, "InternalServerError")]
+        [HttpGet]
+        public IHttpActionResult Get()
+        {
+            return Ok(_appDespesa.Selecionar());
         }
     }
 }

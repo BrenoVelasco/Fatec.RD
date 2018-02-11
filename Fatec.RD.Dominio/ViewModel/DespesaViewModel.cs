@@ -14,6 +14,5 @@ namespace Fatec.RD.Dominio.ViewModel
         public DateTime Data { get; set; }
         public decimal Valor { get; set; }
         public string Comentario { get; set; }
-        public DateTime DataCriacao { get; set; }
     }
 }
