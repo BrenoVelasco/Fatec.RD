@@ -27,7 +27,7 @@ var t = tabela.mDatatable({
                         select: "Selecionar tamanho da página"
                     },
                     info: 'Exibindo' + ' {{start}} - {{end}} ' + 'de' + ' {{total}} ' + 'resultados'
-                },
+                }
             }
         }
     },
@@ -39,7 +39,7 @@ var t = tabela.mDatatable({
                 url: api,
                 map: function (t) {
                     var e = t;
-                    return void 0 !== t.data && (e = t.data), e
+                    return void 0 !== t.data && (e = t.data), e;
                 }
             }
         },
@@ -70,7 +70,7 @@ var t = tabela.mDatatable({
         {
             field: "Descricao",
             title: "Descrição",
-            filterable: true,
+            filterable: true
         },
         {
             field: "Acoes",
@@ -95,7 +95,7 @@ var t = tabela.mDatatable({
                             </div>';
             }
         }]
-})
+});
 
 /***************************************************************/
 
@@ -110,7 +110,7 @@ function novoTipoRelatorio() {
 function abrirModalAlterar(id) {
     formValidation();
     botaoSalvar.attr("data-id", id);
-    var tipoRelatorio = (selecionarPorId(id));
+    var tipoRelatorio = selecionarPorId(id);
     descricao.val(tipoRelatorio.Descricao);
     titleModal.html("Alterar Tipo de Relatório");
     body.modal('show');
@@ -118,7 +118,7 @@ function abrirModalAlterar(id) {
 
 function abrirModalExcluir(id) {
     if (confirm("Tem certeza que deseja excluir?")) {
-        excluir(id)
+        excluir(id);
     }
 }
 
@@ -144,7 +144,7 @@ function inserir(tipoRelatorio) {
         error: function (error) {
             alert(error.responseJSON.error);
         }
-    })
+    });
 }
 
 function alterar(id, tipoRelatorio) {
@@ -157,12 +157,12 @@ function alterar(id, tipoRelatorio) {
             alert("Alterado com sucesso!");
             t.reload();
             body.modal('hide');
-            limparCampos()
+            limparCampos();
         },
         error: function (error) {
             alert(error.responseJSON.error);
         }
-    })
+    });
 }
 
 function excluir(id) {
@@ -177,7 +177,7 @@ function excluir(id) {
         error: function (error) {
             console.log(error);
         }
-    })
+    });
 
 }
 
@@ -209,7 +209,7 @@ function salvarTipoRelatorio() {
     };
 
 
-    if (id != undefined)
+    if (id !== undefined)
         alterar(id, tipoRelatorio);
     else
         inserir(tipoRelatorio);
