@@ -78,7 +78,7 @@ namespace Fatec.RD.Infra.Repositorio.Base
         /// <returns>Objeto de despesa</returns>
         public Despesa SelecionarPorId(int id)
         {
-            var sqlCommand = @"SELECT d.Id, d.IdTipoDespesa, d.IdTipoPagamento, d.Data, d.Valor, d.Comentario, d.DataCriacao
+            var sqlCommand = @"SELECT d.Id, d.IdTipoDespesa, d.IdTipoPagamento, d.Data, d.Valor, d.Comentario, d.DataCriacao, tp.Descricao AS [TipoPagamento], td.Descricao AS [TipoDespesa]
                                     FROM Despesa d
                                         INNER JOIN TipoPagamento tp ON d.IdTipoPagamento = tp.Id
                                         INNER JOIN TipoDespesa td ON d.IdTipoDespesa = td.Id
